@@ -18,7 +18,6 @@
   },
   "require-dev": {
     "phpunit/phpunit": "^4.8 || ^5.0",
-    "phpspec/prophecy": "^1.5"
   },
   "autoload": {
     "psr-4": {
@@ -30,17 +29,8 @@
       "Telegram\\Bot\\Tests\\": "tests/"
     }
   },
-  "suggest": {
-    "irazasyed/larasupport": "Allows you to use any Laravel Package in Lumen by adding support!",
-    "illuminate/container": "Hold dependencies to be injected in commands constructors"
-  },
   "scripts": {
     "test": "phpunit"
-  },
-  "extra": {
-    "branch-alias": {
-      "dev-master": "3.0-dev"
-    }
   },
   "config": {
     "preferred-install": "dist"
